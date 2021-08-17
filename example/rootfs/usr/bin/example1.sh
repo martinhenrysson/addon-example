@@ -50,7 +50,7 @@ get_quote_offline() {
 
     bashio::log.trace "${FUNCNAME[0]}"
 
-    quotes+=("Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.\\n -Samuel Beckett")
+    quotes+=("Never tried. Never failed.\\n -No One")
     quotes+=("Never give up, for that is just the place and time that the tide will turn.\\n -Harriet Beecher Stowe")
     quotes+=("Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.\\n -Thomas A. Edison")
     quotes+=("Life isn't about getting and having, it's about giving and being.\\n -Kevin Kruse")
