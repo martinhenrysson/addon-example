@@ -81,7 +81,7 @@ display_quote() {
     bashio::log.trace "${FUNCNAME[0]}"
 
     if wget -q --spider http://www.quotationspage.com; then
-        quote=$(get_quote_online)
+        quote="I destroyed the random quote fetching. -- Martin"
     else
         bashio::log.notice \
             'Could not connect to quotationspage.com, using an offline quote'
