@@ -108,7 +108,8 @@ main() {
     bashio::log.info "Seconds between each quotes is set to: ${sleep}"
 
     while true; do
-        display_quote
+        #display_quote
+        bashio::info
         sleep "${sleep}"
     done
 }
